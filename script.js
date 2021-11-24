@@ -13,7 +13,7 @@ let songs = [
     {songName: "Mohabbatein", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Kabhi Kabhi Aditi Main", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Udd Gaye By Ritviz", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Judaai by Rekha and Arijit", filePath: "songs/4.mp3", coverPath: "covers/4.png"},
+    {songName: "Judaai by Rekha and Arijit", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
     {songName: "KHALI SALAM DUA", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Accha Lagta Hai", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
     {songName: "Main Koi Aisa Geet Gaoon", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
