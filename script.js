@@ -1,7 +1,7 @@
-console.log("Welcome to Spotify");
+console.log("Welcome to YHusic");
 
 // Initialize the Variables
-let songIndex = 0;
+let songIndex = 0; // initially 0th song
 let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
@@ -62,7 +62,7 @@ const makeAllPlays = ()=>{
 }
 
 Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
-    element.addEventListener('click', (e)=>{ 
+    element.addEventListener('click', (e)=>{ // e is on which it is clicked
         makeAllPlays();
         songIndex = parseInt(e.target.id);
         e.target.classList.remove('fa-play-circle');
